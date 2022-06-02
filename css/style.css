@@ -97,10 +97,6 @@
 .producto__mesa{
     grid-area: mesa;
 }
-/*.living-img{ 
-    width: 100%;
-    height: 90vh;
-}*/
 @keyframes slidy {
     0% { left: 0%; }
     20% { left: 0%; }
@@ -114,7 +110,7 @@
     }
      
     div#slider { overflow: hidden; }
-    div#slider figure img { width: 20%; float: left; height: auto; }
+    div#slider figure img { width: 20%; float: left; height: auto; max-height: 700px; }
     div#slider figure { 
       position: relative;
       width: 500%;
@@ -124,10 +120,10 @@
       font-size: 0;
       animation: 30s slidy infinite; 
     }
-
 .comunic-img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: 180px;
 }
 .estante-img {
     width: 100%;
