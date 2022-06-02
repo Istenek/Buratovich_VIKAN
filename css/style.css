@@ -30,14 +30,8 @@
     font-family: 'Chivo', sans-serif;
     padding: 10px 80px 10px 10px;
     margin: 10px;
-    transition: transform 500ms ease-in-out;
 }
-.indice li {
-    transition: transform 500ms ease-in-out;
-}
-.indice li:hover{
-    transform: scale(1.2);
-}
+
 .indice {
     display: flex;
     flex-direction: row;
