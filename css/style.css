@@ -69,6 +69,7 @@
         "candelabro mesa";
     grid-gap: 10px;
     width: 100%;
+    overflow: hidden;
 }
 .producto__img__inicio {
     grid-area: img-inicio;
@@ -130,10 +131,19 @@
     height: 100%;
 }
 .banquito-img, .octogonal-img, .espejo-img, .hexagonal-img, .candelabro-img, .mesa-img{
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
     width: 100%;
-    height:auto;
+    height: auto;
+    transform: scale(1);
 }
-
+.section_productos article {
+    overflow: hidden;
+}
+.banquito-img:hover, .octogonal-img:hover, .espejo-img:hover, .hexagonal-img:hover, .candelabro-img:hover, .mesa-img:hover {
+    transform: scale(1.1);
+}
 
 
 /*   -------------------------------    FOOTER     -------------------------------     */
