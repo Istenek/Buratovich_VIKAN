@@ -61,7 +61,7 @@
         "estante estante"
         "espejo hexa"
         "candelabro mesa";
-    grid-gap: 10px;
+    grid-gap: 15px;
     width: 100%;
 }
 .producto__img__inicio {
@@ -104,7 +104,7 @@
     }
      
     div#slider { overflow: hidden; }
-    div#slider figure img { width: 20%; float: left; height: auto; max-height: 700px; }
+    div#slider figure img { width: 20%; float: left; height: auto; max-height: 800px; }
     div#slider figure { 
       position: relative;
       width: 500%;
@@ -244,7 +244,7 @@
 }
 .espejo__div__img {
     height: 600px;
-    width: 600px;
+    width: auto;
 }
 
 
@@ -328,7 +328,7 @@
 }
 .candelabro__div__img {
     height: 600px;
-    width: 600px;
+    width: auto;
 }
 /*  ==================================================   MESA   =====================================================   */
 .mesa__div {
@@ -353,7 +353,7 @@
 }
 .mesa__div__img {
     height: 600px;
-    width: 600px;
+    width: auto;
 }
 /*  ==================================================   ESTANTE   =====================================================   */
 .estante__div {
@@ -383,9 +383,10 @@
 
 /*  ==================================================   CONTACTO   =====================================================   */
 .form__section {
-    height: 100%;
-    width: 100%;
-    padding: 20px;
+    height: auto;
+    width: 98%;
+    padding: 5px;
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -408,7 +409,7 @@
     margin-bottom: 20px;
 }
 .form__div{
-    width: 100%;
+    width: 95%;
     font-size: 20px;
 }
 .form__div__txt, .form__div__ing {
