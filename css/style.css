@@ -181,7 +181,7 @@
 }
 
 /* ----------------------------------------- 350px y 767px ----------------------------------------- */
-@media only screen and (min-width: 350px) and (max-width: 767px) {
+@media only screen and (min-width: 350px) and (max-width: 768px) {
 
     .logo-img {
         height: 60px;
@@ -201,7 +201,7 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 769px) {
 
     .logo-img {
         height: 60px;
@@ -218,11 +218,7 @@
     .boton__telefono__contacto {
         display: none;
     }
-}
 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1024px) {
     .section_productos {
         max-width: 1980px;
     }
