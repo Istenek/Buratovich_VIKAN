@@ -44,6 +44,92 @@
     background-color: #EBEBEB;
 }
 
+.section_productos {
+    display: grid;
+    grid-template-areas:
+        "img-info img-info"
+        "banquito octo"
+        "estante estante"
+        "espejo hexa"
+        "candelabro mesa";
+    grid-gap: 20px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.producto__img__inicio {
+    grid-area: img-inicio;
+}
+
+.producto__img__info {
+    grid-area: img-info;
+}
+
+.producto__banquito {
+    grid-area: banquito;
+}
+
+.producto__estante {
+    grid-area: estante;
+}
+
+.producto__octo {
+    grid-area: octo;
+}
+
+.producto__espejo {
+    grid-area: espejo;
+}
+
+.producto__hex {
+    grid-area: hexa;
+}
+
+.producto__candelabro {
+    grid-area: candelabro;
+}
+
+.producto__mesa {
+    grid-area: mesa;
+}
+
+.comunic-img {
+    width: 100%;
+    height: auto;
+}
+
+.estante-img {
+    width: 100%;
+    height: auto;
+}
+
+.banquito-img,
+.octogonal-img,
+.espejo-img,
+.hexagonal-img,
+.candelabro-img,
+.mesa-img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.section_productos article {
+    overflow: hidden;
+}
+
+.banquito-img:hover,
+.octogonal-img:hover,
+.espejo-img:hover,
+.hexagonal-img:hover,
+.candelabro-img:hover,
+.mesa-img:hover {
+    transform: scale(1.1);
+}
+
 /*   -------------------------------    FOOTER     -------------------------------     */
 .footer {
     background-color: #dbdbdb;
@@ -177,6 +263,21 @@
 
     .footer__div__link h3 {
         display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section_productos {
+        grid-template-areas:
+            "img-info"
+            "banquito"
+            "octo"
+            "estante"
+            "estante"
+            "espejo"
+            "hexa"
+            "candelabro"
+            "mesa";
     }
 }
 
