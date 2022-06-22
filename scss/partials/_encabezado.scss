@@ -1,0 +1,29 @@
+#inicio1 {
+    background-color: $color-fondo;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    .logo-img {
+        height: 60px;
+        width: 100px;
+        padding: 5px;
+        margin: 1px 10px 1px 40px;
+    }
+
+    .lista-header {
+        text-decoration: none;
+        color: $color-principal;
+        font-size: 20px;
+        font-family: 'Chivo', sans-serif;
+    }
+
+    .offcanvas-title {
+        font-size: 30px;
+    }
+
+    .nav-item,
+    .dropdown-menu li {
+        padding-bottom: 1rem;
+    }
+}
