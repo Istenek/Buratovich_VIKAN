@@ -1,8 +1,21 @@
-.card-body {
-    display: flex;
-    flex-direction: column;
+.product {
+    max-width: 1980px;
 
+    .card-body {
+        display: flex;
+        flex-direction: column;
+
+
+        img {
+            padding-top: 10px;
+            margin: 1px;
+        }
+
+    }
 }
+
+
+
 
 .form__div__button {
     width: 100%;
