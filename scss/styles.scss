@@ -6,18 +6,6 @@
 @import "./partials/paginas";
 @import "./partials/reset";
 @import "./partials/main-index";
-@import "./partials/responsive/cel_350";
-@import "./partials/responsive/notebook";
-@import "./partials/responsive/tablet_760";
-
-/*  ==================================================   PROYECTO   =====================================================   */
-
-.main__info {
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    font-family: 'Biryani', sans-serif;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-}
+@import "./partials/responsive_cel_350";
+@import "./partials/responsive_notebook";
+@import "./partials/responsive_tablet_760";

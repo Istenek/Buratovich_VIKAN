@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Biryani:wght@600&family=Chivo&display=swap");
 #inicio1 {
   background-color: #EBEBEB;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -15,9 +14,10 @@
 }
 #inicio1 .lista-header {
   text-decoration: none;
-  color: #5B5A5A;
+  color: #353535;
   font-size: 20px;
   font-family: "Chivo", sans-serif;
+  text-align: end;
 }
 #inicio1 .offcanvas-title {
   font-size: 30px;
@@ -28,7 +28,7 @@
 }
 #inicio1 .barra-nav, #inicio1 .dropdown-menu {
   text-decoration: none;
-  color: #5B5A5A;
+  color: #353535;
   font-size: 20px;
   font-family: "Chivo", sans-serif;
 }
@@ -45,63 +45,84 @@
   font-weight: bold;
 }
 .footer .indice_footer li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   font-size: 20px;
   font-weight: bold;
-  color: #5B5A5A;
+  color: #353535;
   font-family: "Chivo", sans-serif;
   padding-bottom: 1rem;
 }
 .footer .indice_footer li a {
   text-decoration: none;
-  color: #5B5A5A;
+  color: #353535;
   font-size: 14px;
   font-family: "Chivo", sans-serif;
 }
-.footer .footer__div__contacto,
-.footer .footer__div__link {
-  color: #5B5A5A;
+.footer .footer__div__contacto {
+  color: #353535;
   font-family: "Chivo", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
-.footer .footer__div__contacto p,
-.footer .footer__div__link p {
+.footer .footer__div__contacto p {
   font-size: 14px;
   padding-top: 1vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .footer .footer__div__contacto .mini_mail_footer,
-.footer .footer__div__contacto .mini_tel_footer,
-.footer .footer__div__link .mini_mail_footer,
-.footer .footer__div__link .mini_tel_footer {
+.footer .footer__div__contacto .mini_tel_footer {
   height: 30px;
   width: 30px;
 }
-.footer .footer__div__contacto .footer_instagram,
-.footer .footer__div__contacto .footer_whatsapp,
+.footer .footer__div__contacto .boton__telefono__contacto,
+.footer .footer__div__contacto .boton__mail__contacto {
+  margin: 1rem;
+}
+.footer .footer__div__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
 .footer .footer__div__link .footer_instagram,
 .footer .footer__div__link .footer_whatsapp {
   height: 50px;
   width: 50px;
-}
-.footer .footer__div__contacto .boton__telefono__contacto,
-.footer .footer__div__contacto .boton__mail__contacto,
-.footer .footer__div__link .boton__telefono__contacto,
-.footer .footer__div__link .boton__mail__contacto {
-  margin: 1rem;
 }
 
 .product {
   max-width: 1980px;
 }
 .product .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .product .card-body img {
   padding-top: 10px;
@@ -175,7 +196,7 @@
   }
 
   .section_productos {
-    max-width: 1980px;
+    max-width: 14000px;
   }
 
   .boton_nav_inicio {
@@ -203,14 +224,4 @@
   .nav__pestanias {
     display: none;
   }
-}
-/*  ==================================================   PROYECTO   =====================================================   */
-.main__info {
-  text-decoration: none;
-  color: black;
-  font-size: 30px;
-  font-family: "Biryani", sans-serif;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
 }

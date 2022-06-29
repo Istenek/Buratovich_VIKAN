@@ -1,7 +1,7 @@
 @import "./variables";
 
 .footer {
-    background-color: #dbdbdb;
+    background-color: $color-fondo-footer;
     padding-top: 1rem;
 
     div {
@@ -30,8 +30,7 @@
         }
     }
 
-    .footer__div__contacto,
-    .footer__div__link {
+    .footer__div__contacto {
         color: $color-principal;
         font-family: map-get($estilo1, font);
         display: flex;
@@ -52,16 +51,23 @@
             width: 30px;
         }
 
-        .footer_instagram,
-        .footer_whatsapp {
-            height: 50px;
-            width: 50px;
-        }
-
         .boton__telefono__contacto,
         .boton__mail__contacto {
             margin: 1rem;
         }
+    }
+
+    .footer__div__link {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+
+        .footer_instagram,
+        .footer_whatsapp {
+            @include sizes_redes
+        }
+
+
     }
 
 }

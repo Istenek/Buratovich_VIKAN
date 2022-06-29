@@ -18,6 +18,7 @@
         color: map-get($estilo1, color);
         font-size: map-get($estilo1, fontsize);
         font-family: map-get($estilo1, font);
+        text-align: end;
     }
 
     .offcanvas-title {

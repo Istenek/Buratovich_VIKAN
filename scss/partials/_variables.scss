@@ -1,7 +1,13 @@
-$color-principal: #5B5A5A;
+$color-principal: #353535;
 $color-fondo: #EBEBEB;
+$color-fondo-footer: #dbdbdb;
 
 $estilo1 :(font: ('Chivo', sans-serif),
     fontsize: 20px,
     fontdeco: none,
     color: $color-principal);
+
+@mixin sizes_redes {
+    height: 50px;
+    width: 50px;
+}
