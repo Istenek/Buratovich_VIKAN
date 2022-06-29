@@ -1,10 +1,12 @@
+@import "./variables";
+
 .footer {
     background-color: #dbdbdb;
     padding-top: 1rem;
 
     div {
         h3 {
-            font-size: 20px;
+            font-size: map-get($estilo1, fontsize);
             font-weight: bold;
         }
     }
@@ -12,18 +14,18 @@
     .indice_footer {
         li {
             display: flex;
-            list-style: none;
-            font-size: 20px;
+            list-style: map-get($estilo1, fontdeco);
+            font-size: map-get($estilo1, fontsize);
             font-weight: bold;
-            color: #5B5A5A;
-            font-family: 'Chivo', sans-serif;
+            color: map-get($estilo1, color);
+            font-family: map-get($estilo1, font);
             padding-bottom: 1rem;
 
             a {
-                text-decoration: none;
-                color: #5B5A5A;
+                text-decoration: map-get($estilo1, fontdeco);
+                color: map-get($estilo1, color);
                 font-size: 14px;
-                font-family: 'Chivo', sans-serif;
+                font-family: map-get($estilo1, font);
             }
         }
     }
@@ -31,7 +33,7 @@
     .footer__div__contacto,
     .footer__div__link {
         color: $color-principal;
-        font-family: 'Chivo', sans-serif;
+        font-family: map-get($estilo1, font);
         display: flex;
         flex-direction: column;
         align-items: flex-start;

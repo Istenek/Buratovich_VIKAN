@@ -6,6 +6,9 @@
 @import "./partials/paginas";
 @import "./partials/reset";
 @import "./partials/main-index";
+@import "./partials/responsive/cel_350";
+@import "./partials/responsive/notebook";
+@import "./partials/responsive/tablet_760";
 
 /*  ==================================================   PROYECTO   =====================================================   */
 
@@ -17,94 +20,4 @@
     margin: 20px;
     padding: 20px;
     text-align: center;
-}
-
-
-/*  ==================================================   QUIENES SOMOS   =====================================================   */
-
-
-
-
-
-/*  ==================================================  MEDIA  =====================================================   */
-
-@media screen and (max-width: 349px) {
-
-
-    .nav__pestanias {
-        display: none;
-    }
-
-    .contacto__escrito,
-    .footer__nav__col {
-        display: none;
-    }
-
-    .footer__nav {
-        display: none;
-    }
-
-    .logo-img {
-        height: 60px;
-        width: 100px;
-        padding: 5px;
-        margin: 1px 1px 1px 1px;
-    }
-
-    .footer__div__link h3 {
-        display: none;
-    }
-}
-
-/* ----------------------------------------- 350px y 767px ----------------------------------------- */
-@media only screen and (min-width: 350px) and (max-width: 768px) {
-
-    .logo-img {
-        height: 60px;
-        width: 100px;
-        padding: 5px;
-        margin: 1px 1px 1px 1px;
-    }
-
-    .contacto__escrito,
-    .footer__nav__col {
-        display: none;
-    }
-
-    .nav__pestanias {
-        display: none;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 769px) {
-
-    .logo-img {
-        height: 60px;
-        width: 100px;
-        padding: 5px;
-        margin: 1px 1px 1px 1px;
-    }
-
-    .boton_nav_inicio {
-        display: none;
-    }
-
-    .boton__mail__contacto,
-    .boton__telefono__contacto {
-        display: none;
-    }
-
-    .section_productos {
-        max-width: 1980px;
-    }
-
-    .boton_nav_inicio {
-        display: none;
-    }
-
-    .boton__mail__contacto,
-    .boton__telefono__contacto {
-        display: none;
-    }
 }
