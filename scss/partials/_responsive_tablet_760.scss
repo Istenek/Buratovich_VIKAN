@@ -15,4 +15,14 @@
     .nav__pestanias {
         display: none;
     }
+
+    .icono_shield_row {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .icono_wapp_row {
+        display: none;
+    }
 }
