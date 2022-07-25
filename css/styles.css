@@ -110,6 +110,9 @@
   padding-top: 10px;
   margin: 1px;
 }
+.product .card-body .img-chico {
+  max-width: 100px;
+}
 
 .form__div__button {
   width: 100%;
