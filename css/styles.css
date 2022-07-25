@@ -13,11 +13,15 @@
   margin: 1px 10px 1px 40px;
 }
 #inicio1 .lista-header {
+  text-align: end;
+}
+#inicio1 .lista-header,
+#inicio1 .nav-item a,
+#inicio1 .dropdown-menu li a {
   text-decoration: none;
   color: #353535;
   font-size: 20px;
   font-family: "Chivo", sans-serif;
-  text-align: end;
 }
 #inicio1 .offcanvas-title {
   font-size: 30px;
@@ -25,6 +29,7 @@
 #inicio1 .nav-item,
 #inicio1 .dropdown-menu li {
   padding-bottom: 1rem;
+  text-decoration: none;
 }
 #inicio1 .barra-nav, #inicio1 .dropdown-menu {
   text-decoration: none;
@@ -154,6 +159,15 @@
 }
 #main_index .productos_index {
   max-width: 1400px;
+}
+#main_index .icono_pago {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#main_index .img_icono_pago {
+  width: auto;
+  height: 100%;
 }
 
 @media screen and (max-width: 349px) {

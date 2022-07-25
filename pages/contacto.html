@@ -66,34 +66,37 @@
         </div>
     </header>
     <main>
-        <div class="form__contacto">
-            <div class="mt-5 mb-3 col-sm-8 col-md-6 col-xl-5 col-10 mx-auto">
-                <label for="exampleFormControlInput1" class="form-label">Mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <form>
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contacto</h2>
+            <p class="text-center w-responsive mx-auto mb-5">¿Tenes alguna pregunta? No dudes en contactarnos. Tenga en cuenta que pdriamos responder en las proximas 24hs.</p>
+            <div class="form-outline mt-2 mb-3 col-sm-8 col-md-6 col-xl-5 col-10 mx-auto">
+                <input type="text" id="form4Example1" class="form-control" />
+                <label class="form-label" for="form4Example1">Nombre</label>
             </div>
-            <div class="mb-3 col-sm-8 col-md-6 col-xl-5 col-10 mx-auto">
-                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="form-outline mt-2 mb-3 col-sm-8 col-md-6 col-xl-5 col-10 mx-auto">
+                <input type="email" id="form4Example2" class="form-control" />
+                <label class="form-label" for="form4Example2">Mail</label>
             </div>
-            <div class="mb-5 col-sm-5 col-md-3 col-xl-3 col-7 mx-auto">
-                <button type="submit" class="form__div__button">ENVIAR</button>
+            <div class="form-outline mt-2 mb-3 col-sm-8 col-md-6 col-xl-5 col-10 mx-auto">
+                <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                <label class="form-label" for="form4Example3">Mensaje</label>
             </div>
-        </div>
+            <div class="form-check d-flex justify-content-center mb-4">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                <label class="form-check-label" for="form4Example4">
+                    Enviarme una copia de este mensaje
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block d-flex mb-4 mx-auto justify-content-center">
+                Enviar
+            </button>
+        </form>
+
     </main>
     <footer class="footer">
         <div class="container">
             <div class="row justify-content-around">
-                <div class="col-3 footer__nav__col">
-                    <nav class="footer__nav">
-                        <ul class="indice_footer">
-                            <li>Categorias</li class="titulo_footer_li">
-                            <li><a href="./contacto.html">Contacto</a></li>
-                            <li><a href="./proyectos.html">Proyectos</a></li>
-                            <li><a href="./quienes_somos.html">Quienes Somos</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-4 footer__div__contacto__col">
+                <div class=" col-6 footer__div__contacto__col">
                     <div class="footer__div__contacto">
                         <div class="contacto__escrito">
                             <h3>Contactános</h3>
@@ -117,7 +120,7 @@
                                             +5491131348073
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary btn-tel" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +141,7 @@
                                             estudiovikanhd@gmail.com
                                         </div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-secondary btn-mail" data-bs-dismiss="modal">Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +151,6 @@
                 </div>
                 <div class="col-3 footer__div__link__col">
                     <div class="footer__div__link">
-                        <h3>Sigamos Contectados</h3>
                         <p><a href="http://www.instagram.com/vikan.hd/" target=”_blank”><img src="../images/pixel instagram.png" alt="Icono Instagram" class="footer_instagram"></a></p>
                         <p><a href="https://wa.me/5491131348073?text=Hola%20quiero%20hacer%20una%20consulta" target=”_blank”><img src="../images/pixel whatsapp.png" alt="Icono Whatsapp" class="footer_whatsapp"></a></p>
                         <p>&copy Marcos Buratovich</p>

@@ -14,11 +14,16 @@
     }
 
     .lista-header {
+        text-align: end;
+    }
+
+    .lista-header,
+    .nav-item a,
+    .dropdown-menu li a {
         text-decoration: map-get($estilo1, fontdeco);
         color: map-get($estilo1, color);
         font-size: map-get($estilo1, fontsize);
         font-family: map-get($estilo1, font);
-        text-align: end;
     }
 
     .offcanvas-title {
@@ -28,6 +33,7 @@
     .nav-item,
     .dropdown-menu li {
         padding-bottom: 1rem;
+        text-decoration: none;
     }
 
     .barra-nav {
