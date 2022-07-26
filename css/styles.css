@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Biryani:wght@600&family=Chivo&display=swap");
 #inicio1 {
   background-color: #EBEBEB;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -51,6 +50,8 @@
   font-weight: bold;
 }
 .footer .indice_footer li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   font-size: 20px;
@@ -68,16 +69,27 @@
 .footer .footer__div__contacto {
   color: #353535;
   font-family: "Chivo", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .footer .footer__div__contacto p {
   font-size: 14px;
   padding-top: 1vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .footer .footer__div__contacto .mini_mail_footer,
 .footer .footer__div__contacto .mini_tel_footer {
@@ -89,9 +101,15 @@
   margin: 1rem;
 }
 .footer .footer__div__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
 }
 .footer .footer__div__link .footer_instagram,
 .footer .footer__div__link .footer_whatsapp {
@@ -103,8 +121,13 @@
   max-width: 1980px;
 }
 .product .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .product .card-body img {
   padding-top: 10px;
@@ -143,6 +166,8 @@
 #main_index .icono_pago,
 #main_index .icono_wapp,
 #main_index .icono_shield {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #main_index .icono_pago .icono_pago_texto h5,
